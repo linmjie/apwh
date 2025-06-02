@@ -1,0 +1,42 @@
+.box{
+    display: flex;/*alignment features*/
+    width: 750px;
+    height: 400px;
+    font-size: 128px;
+    margin: 8px;
+    padding: 10px;
+    border: 12px solid blue;
+    align-items: center; /*vertically align*/
+    justify-self: center;/*div centered*/
+    justify-content: center;
+    text-align: center;
+}
+.image{
+    display: flex;/*alignment features*/
+    width: 750px;
+    height: 400px;
+    align-items: center; /*vertically align*/
+    justify-self: center;/*div centered*/
+    justify-content: center;
+    text-align: center;
+}
+.next_button{
+    width: 100px;
+    height: 50px;
+    font-size: x-large;
+    align-items: center; /*vertically align*/
+    justify-self: center;/*center button*/
+    justify-content: center;
+    text-align: center;
+    float: right;
+}
+.back_button{
+    width: 100px;
+    height: 50px;
+    font-size: x-large;
+    align-items: center; /*vertically align*/
+    justify-self: center;/*center button*/
+    justify-content: center;
+    text-align: center;
+    float: left;
+}
