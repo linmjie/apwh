@@ -1,7 +1,7 @@
 .box{
     display: flex;/*alignment features*/
-    width: 750px;
-    height: 400px;
+    width: 1500px;
+    height: 200px;
     font-size: 128px;
     margin: 8px;
     padding: 10px;
@@ -11,10 +11,19 @@
     justify-content: center;
     text-align: center;
 }
+.container {
+  display: flex;
+  width: 1200px;
+  background-color:cadetblue;
+  border-radius: 32px;
+  border: solid black;
+  align-items: center;
+  text-align: center;
+  justify-self: center;
+  justify-content: center;
+}
 .image{
     display: flex;/*alignment features*/
-    width: 750px;
-    height: 400px;
     align-items: center; /*vertically align*/
     justify-self: center;/*div centered*/
     justify-content: center;
@@ -24,19 +33,27 @@
     width: 100px;
     height: 50px;
     font-size: x-large;
-    align-items: center; /*vertically align*/
-    justify-self: center;/*center button*/
+    align-items: center; 
+    justify-self: center;
     justify-content: center;
     text-align: center;
-    float: right;
+    position: fixed;
+    right: 64px;
+    bottom: 48px;
 }
 .back_button{
     width: 100px;
     height: 50px;
     font-size: x-large;
-    align-items: center; /*vertically align*/
-    justify-self: center;/*center button*/
+    align-items: center;
+    justify-self: center;
     justify-content: center;
     text-align: center;
-    float: left;
+    position: fixed;
+    left: 64px;
+    bottom: 48px;
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
 }

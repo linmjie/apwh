@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>The Dot-Com Bubble</title>
+     <link rel='stylesheet' href='main.css'>
+</head>
+<body>
+
+    <audio id="sound" src="AOL.mp3"></audio>
+    <button id="aol_button" class="image">
+        <img src="AOL_dialup.png">
+    </button>
+
+    <div style="display: flex;">
+        <img src="pizza_hut.png" style="padding: 64px;">
+        <div class="text">
+            <h1>The now infamous "Pets.com"</h1>
+            <ul>
+                <li>Garnered extensive investments from the Dot-Com craze to the point of being able to afford an ad for the Superbowl</li>
+                <br>
+                <li>Quite literally not profitable, thrived purely off of investments</li>
+                <br>
+                <div style="background-color: green; width: 200px;">
+                    <li>Made Millions</li>
+                </div>
+                <br>
+                <div style="background-color: red; width: 800px;">
+                    <li>Spent HUNDREDS of Millions on advertising to boost shareholder value</li>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <a href="thesis.html">
+        <button class="back_button">< Back </button>
+    </a>
+    <a href="">
+        <button class="next_button">Next ></button>
+    </a>
+    <script>
+        const button = document.getElementById('aol_button');
+        const audio = document.getElementById('sound');
+
+        button.addEventListener('click', function() {
+            audio.play();
+        });
+    </script>
+</body>
+</html>
