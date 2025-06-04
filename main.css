@@ -11,6 +11,13 @@
     justify-content: center;
     text-align: center;
 }
+.basic_box{
+    display: flex;/*alignment features*/
+    justify-content: center;
+    align-items: center; /*vertically align*/
+    justify-self: left;/*div centered*/
+    text-align: center;
+}
 .container {
   display: flex;
   width: 1200px;
@@ -28,6 +35,7 @@
     justify-self: center;/*div centered*/
     justify-content: center;
     text-align: center;
+    flex-wrap: wrap;
 }
 .next_button{
     width: 100px;
@@ -56,4 +64,12 @@
 .text{
     font-family: Arial, Helvetica, sans-serif;
     font-size: xx-large;
+}
+.stacked{
+    display: flex;/*alignment features*/
+    align-items: center; /*vertically align*/
+    justify-self: left;
+    justify-content: left;
+    text-align: center;
+    flex-wrap: wrap;
 }
